@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Service Data" version="4">
+  <OBJECT>
+    <ID name="Service Data" mc="Standard.Package" uid="afdf52d9-85c6-47e5-9f41-3a5391a827e6"/>
+    <PID name="Application Architecture" mc="Standard.Package" uid="dc2545dd-ed21-4f65-96e8-30d707e3d344"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Service Data]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ApplicationArchitectureDomain" mc="Infrastructure.Stereotype" uid="3d6f7e12-ab91-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="1bb826fd-f9ef-4e66-9931-053fc6c5c53b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The "Service Data" domain contains the model of messages and message fragments. These messages constitute the information exchanged between IS services. Modelio can generate XSD schema from this model. Messeges will be used as types service parameters.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

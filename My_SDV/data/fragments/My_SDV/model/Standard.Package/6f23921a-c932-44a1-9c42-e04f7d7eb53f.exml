@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="my_sdv" version="4">
+  <OBJECT>
+    <ID name="my_sdv" mc="Standard.Package" uid="6f23921a-c932-44a1-9c42-e04f7d7eb53f"/>
+    <PID name="My_SDV" mc="Standard.Project" uid="67de7655-4f98-489f-a509-35068a736c89"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[my_sdv]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Business Layer" mc="Standard.Package" uid="dbd7e68f-adc9-47f5-970a-2fdcc91477f7"/>
+        <COMPID name="Application Layer" mc="Standard.Package" uid="6ea444b3-4782-4911-9805-019582b01389"/>
+        <COMPID name="Technology Architecture" mc="Standard.Package" uid="35683c00-8e17-49f0-a26c-77203caf221f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TogafRoot" mc="Infrastructure.Stereotype" uid="374ea675-764e-11e0-8277-bc305ba4815c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

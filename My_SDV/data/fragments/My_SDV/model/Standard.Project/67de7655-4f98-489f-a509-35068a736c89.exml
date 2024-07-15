@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="My_SDV" version="4">
+  <OBJECT>
+    <ID name="My_SDV" mc="Standard.Project" uid="67de7655-4f98-489f-a509-35068a736c89"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[My_SDV]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="my_sdv" mc="Standard.Package" uid="6f23921a-c932-44a1-9c42-e04f7d7eb53f"/>
+        <COMPID name="Physical Viewpoint" mc="Standard.Package" uid="9bc39be0-f55a-44b8-89ff-3047b17f199f"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="My_SDV" mc="Infrastructure.DiagramSet" uid="cf5658ae-171c-4b34-9be9-7872455b9db1"/>
+      </COMP>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="30dd3305-8c88-4c11-876a-0f9e600edceb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="8b3e8f04-100a-406d-af65-e2c41c72bb81"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[4.0.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="togaf.modelVersion" mc="Infrastructure.TagType" uid="8e820c6c-b121-4db6-a02b-6762820c3092"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

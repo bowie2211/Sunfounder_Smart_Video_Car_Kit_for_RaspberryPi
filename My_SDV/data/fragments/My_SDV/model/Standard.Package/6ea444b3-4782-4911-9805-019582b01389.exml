@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application Layer" version="4">
+  <OBJECT>
+    <ID name="Application Layer" mc="Standard.Package" uid="6ea444b3-4782-4911-9805-019582b01389"/>
+    <PID name="my_sdv" mc="Standard.Package" uid="6f23921a-c932-44a1-9c42-e04f7d7eb53f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Application Layer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Data Architecture" mc="Standard.Package" uid="e697655a-08c5-44ee-926e-cad958e4271f"/>
+        <COMPID name="Application Architecture" mc="Standard.Package" uid="dc2545dd-ed21-4f65-96e8-30d707e3d344"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ApplicationLayer" mc="Infrastructure.Stereotype" uid="f715e5aa-ab6c-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="37dddc4c-ed5d-407b-bb52-e8f23bbaa282"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The application layer is related to the application models. The data architecture is in particular modeled under the "data architecture" domain, where persistent data are defined. They can be derived from the business entities defined under the Business Layer/Business entities domain.
+The application components and their architecture are defined under the "Application Architecture" domain.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
